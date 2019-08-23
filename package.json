@@ -1,0 +1,21 @@
+{
+  "name": "dashbi-widget-chart",
+  "version": "0.1.0",
+  "description": "Dashbi widget that displays chart using chartist.js",
+  "main": "index.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dashbi",
+    "dashbi-widget",
+    "chart",
+    "chartist"
+  ],
+  "author": "Marek Sierociński <mareksierocinski@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chartist": "^0.11.3",
+    "v-chartist": "^0.1.6"
+  }
+}
