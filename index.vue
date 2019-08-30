@@ -10,6 +10,7 @@
 
 <script>
 import vChartist from 'v-chartist'
+import 'chartist/dist/chartist.min.css'
 
 const defaultChartOptions = {
   generic: {
@@ -94,8 +95,6 @@ export default {
 </script>
 
 <style>
-@import 'node_modules/chartist/dist/chartist.min.css';
-
 .v-chartist-container {
   width: 100%;
   height: calc(100% - 3.7em);
